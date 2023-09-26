@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a{
+  color: white;
+}
+
+.hello{
+  position: fixed;
+  height: fixed;
+  left: 20px;
+  width: 180px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer-container{
+  display: flex;
+  background-color: rgb(38, 37, 37);
+  color: white;
+  justify-content: center;
+}
+
+.faq-container{
+  display: flex;
+  background-color: rgb(38, 37, 37);
+  color: white;
+  justify-content: center;
+}
+
+#navbar {
+  display: flex;
+  background-color: rgb(38, 37, 37);
+  color: white;
+  justify-content: center;
+}
+
+#navbar .navbar-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+#navbar .navbar-container ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar .navbar-container ul li {
+  padding: 0 30px;
+}
+
+#navbar .navbar-container ul li:nth-child(1) {
+  border-right: 1px solid white;
+}
+
+#navbar .navbar-container ul li:nth-child(2) {
+  border-right: 1px solid white;
+}
